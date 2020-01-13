@@ -1,0 +1,53 @@
+https://keybase.io/adamgall
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://adam.gall.pro
+  * I am adamgall (https://keybase.io/adamgall) on keybase.
+  * I have a public key ASDwJkkcuP6BJtsOeT5x2hRR0fNvCzapfMiqMgYrHIc7YQo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120f026491cb8fe8126db0e793e71da1451d1f36f0b36a97cc8aa32062b1c873b610a",
+      "host": "keybase.io",
+      "kid": "0120f026491cb8fe8126db0e793e71da1451d1f36f0b36a97cc8aa32062b1c873b610a",
+      "uid": "14cc4d1060c03ff7c2161c8f020b0319",
+      "username": "adamgall"
+    },
+    "merkle_root": {
+      "ctime": 1578894124,
+      "hash": "8ed6bdc53c031a2f06a980185fa369c049c6a51f15c68e828c019cc928fa7bb7d6de1cb9d4c85d506467cbbaa32d3d9e11f079c915782a214600986f8e1a8022",
+      "hash_meta": "038d5e2439ef41975244c8777974a23e51ee1a1dd784eef9fc36a5a0ffe9b1ca",
+      "seqno": 14200868
+    },
+    "service": {
+      "entropy": "g2x0aPeaEQ20Pjvfk8ne6PJA",
+      "hostname": "adam.gall.pro",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "5.1.1"
+  },
+  "ctime": 1578894147,
+  "expire_in": 504576000,
+  "prev": "fca697dc1165a8209e1db755b237f75b9864509d2cbdfa87983ec1ede06f3357",
+  "seqno": 56,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEg8CZJHLj+gSbbDnk+cdoUUdHzbws2qXzIqjIGKxyHO2EKp3BheWxvYWTESpcCOMQg/KaX3BFlqCCeHbdVsjf3W5hkUJ0svfqHmD7B7eBvM1fEIOTunkGtr8n5nE8wvPJ2Zx/kXCHR1EElfqvIwwvr4sdAAgHCo3NpZ8RAENU3JpbWwKtrtFQutsR0TWXE5vcXN2flqQU33oO6aE3OfMLKobdX0tXKinql3bl2Ip2uYWrM4fbxqA7IjX2lB6hzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIFDucOVKHRoUDFbRP6BBD8AfzmrB5bPyCB9J9nmYo+kKo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/adamgall
