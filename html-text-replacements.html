@@ -1,0 +1,55 @@
+<html>
+  <body>
+    <!--
+      declare one div, with an id, and call the logoutById() function
+      when it's clicked.
+    -->
+    <div id="login-id" onclick='logoutById()'>login by id</div>
+
+    <script>
+      function logoutById() {
+        // document.getElementById returns ONE specific HTML element,
+        // because divs are unique
+        const loginIdDiv = document.getElementById("login-id");
+        
+        // check chrome's console to see what this loginIdDiv HTML
+        // object looks like
+        console.log({ loginIdDiv });
+
+        // since loginIdDiv is a specific html element, we can call
+        // .innerHTML = "whatever" on it, to change it's value
+        loginIdDiv.innerHTML = "logout by id";
+      }
+    </script>
+
+    <!--
+      next, declare two more divs, each with the same class, and clicking either one
+      will call the logoutByClass() function.
+    -->
+    <div class="login-class" onclick='logoutByClass()'>login by class 1</div>
+    <div class="login-class" onclick='logoutByClass()'>login by class 2</div>
+
+    <script>
+      function logoutByClass() {
+        // document.getElementsByClassName returns an ARRAY of HTML elements,
+        // because the same class can be applied to multiple elements, like
+        // we've done above.
+        const loginClassDivs = document.getElementsByClassName("login-class");
+
+        // check chrome's console to see what this loginClassDivs array of HTML
+        // objects looks like
+        console.log({ loginClassDivs });
+
+        // in order to identify individual HTML elements in the array, we can
+        // do so with the bracket notation, identifying each element by its
+        // index in the array. we know that there are two items in this array,
+        // so we're just hardcoding the indexes as 0 and 1.
+        //
+        // loginClassDivs[0] and loginClassDivs[1] refer to individual HTML
+        // elements, which have the .innerHTML = "whatever" property on them
+        loginClassDivs[0].innerHTML = "logout by class 1";
+        loginClassDivs[1].innerHTML = "logout by class 2";
+      }
+    </script>
+  </body>
+</html>
